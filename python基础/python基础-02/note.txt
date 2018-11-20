@@ -1,0 +1,20 @@
+if 条件：
+    xxxx
+
+if 条件：
+    xxxx1
+else:
+    xxxxx2
+
+if 条件:
+    xxxxxxxxx1
+elif 条件2:
+    xxxxx2
+elif 条件3:
+    xxxxxxx3
+......
+
+while 循环
+
+while 条件:
+    条件满足时做的事情

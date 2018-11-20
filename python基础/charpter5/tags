@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+__author__	test.py	/^__author__ = 'ZHHT'$/;"	v
+add_info	homework2.py	/^def add_info():$/;"	f
+add_info	homework5.py	/^def add_info(stu_info):$/;"	f
+add_stu	test/test.py	/^def add_stu():$/;"	f
+alter_stu	test/test.py	/^def alter_stu():$/;"	f
+content	03-复制文件.py	/^    content = old_file.read(1024)$/;"	v
+del_info	homework2.py	/^def del_info():$/;"	f
+del_info	homework5.py	/^def del_info(stu_info):$/;"	f
+del_stu	test/test.py	/^def del_stu():$/;"	f
+f	01-写入数据.py	/^f = open("xxx.txt","w")$/;"	v
+f	02-读取数据.py	/^f = open("xxx.txt","r")$/;"	v
+f	homework1.py	/^f = open(file_name,"r")$/;"	v
+f	test.py	/^f = open("install-sh","r")$/;"	v
+file_name	homework1.py	/^file_name = input("请您输入要读取的文件名:")$/;"	v
+file_name	homework2.py	/^file_name = "mima.txt"$/;"	v
+file_names	04-批量重命名.py	/^file_names = os.listdir(folder_name)$/;"	v
+folder_name	04-批量重命名.py	/^folder_name = input("请输入要重命名的文件夹:")$/;"	v
+get_optipn	homework5.py	/^def get_optipn():$/;"	f
+info	homework2.py	/^info = []$/;"	v
+is_in_range	test/test.py	/^def is_in_range():$/;"	f
+main	homework2.py	/^def main():$/;"	f
+main	homework5.py	/^def main():$/;"	f
+mod_info	homework2.py	/^def mod_info():$/;"	f
+mod_info	homework5.py	/^def mod_info(stu_info):$/;"	f
+new_file	03-复制文件.py	/^new_file = open(new_file_name,"w")$/;"	v
+new_file_name	03-复制文件.py	/^new_file_name = old_file_name[0:position]+"[复件]"+old_file_name[position:]$/;"	v
+new_file_name	04-批量重命名.py	/^    new_file_name = folder_name +"\/"+"[京东出品]-"+name$/;"	v
+old_file	03-复制文件.py	/^old_file  = open(old_file_name,"r")$/;"	v
+old_file_name	03-复制文件.py	/^old_file_name = input("请输入要复制的文件名:")$/;"	v
+old_file_name	04-批量重命名.py	/^    old_file_name = folder_name+"\/" +name$/;"	v
+position	03-复制文件.py	/^position = old_file_name.rfind(".")$/;"	v
+print_menu	homework2.py	/^def print_menu():$/;"	f
+print_menu	homework5.py	/^def print_menu():$/;"	f
+read_data	homework2.py	/^def read_data():$/;"	f
+read_data	test/test.py	/^def read_data():$/;"	f
+res	test.py	/^res = f.readlines()$/;"	v
+results	homework1.py	/^results = f.readlines()$/;"	v
+save_data	homework2.py	/^def save_data():$/;"	f
+save_data	test/test.py	/^def save_data():$/;"	f
+search_info	homework2.py	/^def search_info():$/;"	f
+search_info	homework5.py	/^def search_info(stu_info):$/;"	f
+see_stu	test/test.py	/^def see_stu():$/;"	f
+sel_num	test/test.py	/^        sel_num = input('您的选择无效，请重新选择：')$/;"	v
+sel_num	test/test.py	/^        sel_num = int(sel_num)$/;"	v
+sel_num	test/test.py	/^    sel_num = input('请输入您要进行的操作：')$/;"	v
+sel_num	test/test.py	/^    sel_num = int(sel_num)$/;"	v
+show_info	homework2.py	/^def show_info():$/;"	f
+show_info	homework5.py	/^def show_info(stu_info):$/;"	f
+str	02-读取数据.py	/^str = f.read()$/;"	v
+stu_info	homework5.py	/^stu_info = []$/;"	v
+student_list	test/test.py	/^student_list = []$/;"	v
