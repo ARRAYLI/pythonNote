@@ -1,0 +1,26 @@
+#!/usr/bin/env python
+# coding=utf-8
+
+from multiprocessing import Pool
+import os
+import random
+import time
+
+def worker(num):
+    for i in range(5):
+        print("-------pid=%d---num=%d"%(os.getpid(),num))
+        time.sleep(1)
+
+#3 表示 进程池中对多有3个进程一起执行
+pool = Pool(3)
+
+for i in range(10):
+    print("-----------%d-------"%i)
+    pool.apply(worker,(i,))  # 阻塞的方式
+
+
+pool.close()  # 关闭进程池，  相当于  不能够再次添加新任务了
+pool.join()   # 主进程  创建/添加  任务后，主进程  默认不会等待进程池中的任务完成后才结束
+              # 而是当主进程的任务做完之后  立马结束，，， 如果这个地方没有 join ，会导致进程池中的任务不会被执行
+
+

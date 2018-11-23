@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+# coding=utf-8
+
+from multiprocessing import Process
+
+import time 
+
+def test():
+    for i in range(5): 
+        print("------------test----------")
+        time.sleep(1)
+
+
+p = Process(target=test)
+p.start()   # 让这个进程开始执行 test 函数里的代码
+
+
