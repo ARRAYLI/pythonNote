@@ -1,0 +1,14 @@
+def clientDeal():
+    while True:
+            cSocket.recv(xxx)
+            cSocket.send(xx)
+
+
+s = socket()
+s.bind()
+s.listen()
+
+while True:
+    cSocket,cInfo = s.accept()
+    p = Process(target=clientDeal,args=(cSocket,))
+    p.start()
