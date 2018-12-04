@@ -2,10 +2,13 @@
 # coding=utf-8
 
 import select
-import socket
+import socket 
+#from socket import *
 import sys
 
 server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+server.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)
+
 server.bind(('',7788))
 
 server.listen(5)
@@ -37,7 +40,7 @@ while True:
         else:
             # 读取客户端连接发送的数据
             data = sock.recv(1024)
-            print("收到的数据:[%s]"%data)
+            print("收到来自[%s]的数据:[%s]"%(str(sock),data))
             if data:
                 sock.send(data)
             else:
